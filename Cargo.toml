@@ -1,0 +1,15 @@
+[package]
+name = "detour-rs"
+version = "0.1.0"
+authors = ["Jonmichael Chambers <jon@tyrbo.net>"]
+edition = "2018"
+links = "detour"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cmake = "0.1"
+cxx-build = "1.0"
